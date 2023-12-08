@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Utilidades" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+       <item name="colorPrimary">@color/primaryColor</item>
+    </style>
+
+    <style name="selectButton" parent="Base.Theme.Utilidades">
+        <item name="backgroundTint">@color/cream</item>
+        <item name="android:textColor">@color/guacamole</item>
+        <item name="android:colorPressedHighlight">@color/blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Theme.Utilidades" parent="Base.Theme.Utilidades" />
+</resources>
